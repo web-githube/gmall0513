@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<!--springBoot中自己内置的2.1.9的版本-我们需要删除-继承gmall-parent的去使用1.5的版本；-->
+	<parent>
+		<artifactId>gmall-parent</artifactId>
+		<groupId>com.atguigu.gmall0513</groupId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>../gmall-parent/pom.xml</relativePath>
+	</parent>
+	<groupId>com.atguigu.gmall0513</groupId>
+	<artifactId>gmall-user-manage</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>gmall-user-manage</name>
+	<description>用户服务</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+
+      <!--因为springboot的一套common-util存在-->
+
+		<dependency>
+			<groupId>com.atguigu.gmall0513</groupId>
+			<artifactId>gmall-interface</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+
+		  <!--service-utils中存在的是s=common-util里面 有springBoot的-->
+		<dependency>
+			<groupId>com.atguigu.gmall0513</groupId>
+			<artifactId>gmall-service-utils</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+
+
+
+</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

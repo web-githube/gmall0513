@@ -9,7 +9,10 @@
         <module name="gmall-bean" />
         <module name="gmall-common-util" />
         <module name="gmall-interface" />
+        <module name="gmall-order-web" />
         <module name="gmall-service-util" />
+        <module name="gmall-service-utils" />
+        <module name="gmall-user-manage" />
         <module name="gmall-web-util" />
       </profile>
     </annotationProcessing>
@@ -17,9 +20,14 @@
       <module name="gmall-bean" target="1.8" />
       <module name="gmall-common-util" target="1.8" />
       <module name="gmall-interface" target="1.8" />
+      <module name="gmall-order-web" target="1.8" />
       <module name="gmall-parent" target="1.8" />
+      <module name="gmall-parent1" target="1.8" />
       <module name="gmall-service-util" target="1.8" />
+      <module name="gmall-service-utils" target="1.8" />
+      <module name="gmall-user-manage" target="1.8" />
       <module name="gmall-web-util" target="1.8" />
+      <module name="test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>gmall-parent</artifactId>
-        <groupId>com.atguigu.gmall</groupId>
+        <groupId>com.atguigu.gmall0513</groupId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../gmall-parent/pom.xml</relativePath>
     </parent>
@@ -14,12 +14,16 @@
             <!--添加依赖，要用到实体类UserInfo-依赖gmall-bean-->
 
        <dependencies>
+          <!-- <dependency>
+               <groupId>com.atguigu.gmall</groupId> &lt;!&ndash;路径&ndash;&gt;
+               <artifactId>gmall-bean</artifactId>  &lt;!&ndash;artifactid表示的模块的项目名&ndash;&gt;
+               <version>1.0-SNAPSHOT</version>
+           </dependency>-->
            <dependency>
-               <groupId>com.atguigu.gmall</groupId> <!--路径-->
-               <artifactId>gmall-bean</artifactId>  <!--artifactid表示的模块的项目名-->
+               <groupId>com.atguigu.gmall0513</groupId>
+               <artifactId>gmall-bean</artifactId>
                <version>1.0-SNAPSHOT</version>
            </dependency>
-
 
        </dependencies>
 
